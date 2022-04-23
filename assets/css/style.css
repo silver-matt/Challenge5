@@ -5,10 +5,8 @@ body {
   }
   
   textarea{
-    background: transparent;
     border: none;
     resize: none;
-    color: #000000;
     border-left: 1px solid black;
     padding: 10px;
   }
@@ -31,7 +29,6 @@ body {
   }
   
   .row {
-    white-space: pre-wrap;
     height: 80px;
     border-top: 1px solid white;;
   }
@@ -42,7 +39,7 @@ body {
     border-top: 1px dashed #000000;
   }
   
-  .past {
+   .past {
     background-color: #d3d3d3;
     color: white;
   }
@@ -54,11 +51,12 @@ body {
   
   .future {
     background-color: #77dd77;
-    color: white;
-  }
+    color: white; 
+  } 
   
   .saveBtn {
     border-left: 1px solid black;
+    height: 80px;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     background-color: #06AED5;
